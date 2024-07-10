@@ -1,0 +1,9 @@
+site_name: ${{ values.system }}-${{ values.service }} Documentation
+nav:
+  - Home: index.md
+  - Deployment: deployment.md
+theme:
+  name: 'material'
+plugins:
+  - search
+docs_dir: 'docs'
